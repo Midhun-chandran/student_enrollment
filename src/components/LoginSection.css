@@ -8,8 +8,8 @@ body {
 }
 .contayner {
      background: #13d393; 
-   /* background: url('/images/bg_login1.jpg');
-   background-size: cover; */
+    /* background: url('/images/bg_login1.jpg');
+   */
  
    margin: 0%;
  
@@ -211,4 +211,61 @@ width: 20%;
 #gif a img {
     max-width: 100%;
     box-shadow: 0 0 64px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 768px) {
+    #signin {
+        width: 60%;
+        
+    }
+    .login-titles {
+        position: absolute;
+        width: 20%;
+         display: inline;
+    }
+
+    .login-titles Button {
+        margin-top: 10px;
+        font-size: 10px;
+       
+      
+    }
+}
+@media screen and (max-width: 968px) {
+    #signin {
+        width: 60%;
+
+    }
+
+    .login-titles {
+        position: absolute;
+        width: 20%;
+        display: inline;
+    }
+
+    .login-titles Button {
+        margin-top: 10px;
+        font-size: 10px;
+
+
+    }
+}
+@media screen and (max-width: 1300px) and (min-width: 968px) {
+    #signin {
+        width: 40%;
+
+    }
+
+    .login-titles {
+        position: absolute;
+        width: 20%;
+        display: inline;
+    }
+
+    .login-titles Button {
+        margin-top: 10px;
+        font-size: 10px;
+
+
+    }
 }
