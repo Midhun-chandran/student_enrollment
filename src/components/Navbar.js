@@ -39,7 +39,7 @@ function Navbar() {
       <nav className={navbar?'navbar active':'navbar'}>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            ICTAK 
+           ICT STUDROLL
           <img src={logo} alt="" />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -53,22 +53,14 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/services'
+                to='/courses'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Courses
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link
-                to='/products'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Contact Us
-              </Link>
-            </li>
+           
 
             <li>
               <Link
@@ -81,7 +73,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--green'>LOGIN</Button>}
+          {button && <Button buttonStyle='btn--green' onClick='/Sign-up'>LOGIN</Button>}
         </div>
       </nav>
     </>

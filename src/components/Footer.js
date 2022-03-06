@@ -16,14 +16,14 @@ Phone: 7594051437</p>
           <div className= 'footer-link-items' >
             <h2>ICT ACADEMY-CENTRAL REGION</h2>
             <p>Ground Floor,Rajamally Building, Infopark, Koratty, Thrissur, Kerala</p>
-            <Link to='/'>Sponsorships</Link>
+          
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>ICT ACADEMY-NORTH REGION</h2>
             <p>2nd Floor, Ul Cyberpark Building, Nellikode PO, Kozhikode, Kerala, India.</p>
-            <Link to='/'>Influencer</Link>
+           
           </div>
           <div  className = 'footer-link-items' >
             <h2>ICT ACADEMY-SOUTH REGION</h2>
@@ -36,7 +36,7 @@ Phone: 7594051437</p>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
               ICTAK
-              <i className='fab fa-typo3' />
+              
             </Link>
           </div>
           <small className='website-rights'>created as part of ICTAK @ 2022</small>
@@ -57,14 +57,7 @@ Phone: 7594051437</p>
             >
               < i className = 'fab fa-instagram' / >
             </Link>
-            <Link
-              className = 'social-icon-link youtube'
-              to='/'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              < i className = 'fab fa-youtube' / >
-            </Link>
+           
             <Link
               className = 'social-icon-link twitter'
               to='/'

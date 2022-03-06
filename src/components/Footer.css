@@ -35,10 +35,10 @@
 
 .footer-link-items > h2 {
   color: rgb(77, 77, 77);
-}
+} 
 
 .footer-link-items a {
-  color: #fff;
+  color: rgb(77, 77, 77);
   text-decoration: none;
   margin-bottom: 0.5rem;
 }
@@ -58,7 +58,7 @@
 
 /* Social Icons */
 .social-icon-link {
-  color: #fff;
+  color: rgb(151, 146, 146);
   font-size: 24px;
 }
 
@@ -84,7 +84,7 @@
 }
 
 .social-logo {
-  color: #fff;
+  color: rgb(77, 77, 77);
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
@@ -96,7 +96,7 @@
 }
 
 .website-rights {
-  color: #fff;
+  color: rgb(77, 77, 77);
   margin-bottom: 16px;
 }
 

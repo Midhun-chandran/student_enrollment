@@ -4,7 +4,7 @@ import'./Story.css';
 function story(props) {
     return (
         <div>
-            <section className='container'>
+            <section className='container-sect'>
                 
                     
                 <div className=' story-sect'>

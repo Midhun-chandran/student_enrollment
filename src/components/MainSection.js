@@ -18,9 +18,9 @@ function MainSection() {
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          onClick={console.log('hey')}
+          onClick='/Courses'
         >
-          Go through our courses
+          Go through our coursess
         </Button>
       </div>
     </div>
