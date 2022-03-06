@@ -3,7 +3,7 @@ import React from 'react';
 import Login from '../LoginSection';
 import Footer from '../Footer';
 
-export default function SignUp() {
+export default function SignIn() {
   return <>
         < Login />
         <Footer />
