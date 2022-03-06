@@ -31,11 +31,13 @@ function login(props) {
 		          <label for="password">Password</label>
 	        </div>
             <div className="input-field">
-		         <select name="cars" id="cars" className="input-select">
-    <option value="volvo">Select Login type</option>
-    <option value="saab">Employee </option>
-    <option value="opel">Student</option>
-    <option value="audi">Admin</option>
+		         <select select name = "emplyee_type"
+		         id = "emplyee_type"
+		         className = "input-select" >
+    <option value="null">Select Login type</option>
+    <option value="employee">Employee </option>
+    <option value="student">Student</option>
+    <option value="admin">Admin</option>
   </select>
 	        </div>
 	           <button className="login">Login</button>
