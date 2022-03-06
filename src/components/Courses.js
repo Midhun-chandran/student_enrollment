@@ -4,11 +4,11 @@ import CourseItem from './CourseItem';
 
 function Courses() {
   return (
-    <div className='cards'>
+    <div className='courses'>
       <h1>COURSES</h1>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
+      <div className='courses__container'>
+        <div className='courses__wrapper'>
+          <ul className='courses__items'>
             < CourseItem
               src='images/fsd.jpg'
               text = 'CERTIFIED SPECIALIST IN FULL STACK DEVELOPMENT'
@@ -26,7 +26,7 @@ function Courses() {
                />
                
           </ul>
-          <ul className='cards__items'>
+          <ul className='courses__items'>
             < CourseItem
               src='images/cybersecurity.jpg'
               text = 'CERTIFIED CYBER SECURITY ANALYST'
