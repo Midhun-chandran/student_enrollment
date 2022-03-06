@@ -44,7 +44,7 @@
 .btn--large:hover,
 .btn--medium:hover {
   transition: all 0.3s ease-out;
-  background: rgb(83, 88, 2);
+  background: rgb(8, 136, 4);
   color: #ffffff;
   transition: 250ms;
   border: 0;
