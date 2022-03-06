@@ -20,7 +20,7 @@ function MainSection() {
           buttonSize='btn--large'
           onClick='/Courses'
         >
-          Go through our coursess
+          Go through our courses >
         </Button>
       </div>
     </div>
