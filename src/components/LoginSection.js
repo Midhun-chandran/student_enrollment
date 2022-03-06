@@ -45,11 +45,7 @@ function login(props) {
 	           <button className="login">Login</button>
 	         
      </div>
-         <div id="gif">
-	        <a href="https://dribbble.com/shots/2197140-New-Material-Text-Fields">
-		     <img src="https://d13yacurqjgara.cloudfront.net/users/472930/screenshots/2197140/efsdfsdae.gif" alt=""/>
-	        </a>
-         </div>
+        
        </div>
         </div>
     );
