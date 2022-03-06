@@ -31,8 +31,8 @@ function login(props) {
 		          <label for="password">Password</label>
 	        </div>
             <div className="input-field">
-		         <select select name = "emplyee_type"
-		         id = "emplyee_type"
+		         <select select name = "login_type"
+		         id = "login_type"
 		         className = "input-select" >
     <option value="null">Select Login type</option>
     <option value="employee">Employee </option>
